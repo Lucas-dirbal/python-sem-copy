@@ -16,3 +16,10 @@ if (valorPresenteLiquido - investimentoInicial) > 0:
     print(f"Seuprojeto é viavel")
 else:
     print(f"Seu projeto é inviavel")
+
+payback = valorPresenteLiquido/investimentoInicial
+
+if payback > 1:
+    print(f"A empreja já pagou")
+else:
+    print("A empresa ainda não se pagou")
