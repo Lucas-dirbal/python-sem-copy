@@ -3,7 +3,7 @@ taxaDesconto = float(input("Informe taxa de desconto: \n"))
 taxaPorcentagem = taxaDesconto / 100
 
 contador = 1
-qntFluxocaixa = int(input("Quantos anos você tem previsto de fluxo de caixa"))
+qntFluxocaixa = int(input("Quantos anos você tem previsto de fluxo de caixa: \n"))
 valorPresenteLiquido = 0
 
 while contador <= qntFluxocaixa:
