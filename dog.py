@@ -13,7 +13,10 @@ class Cachorro:
             print("Nenhum cachorro cadastrado")
             return
         
-        print("\n --- Cachorros cadastrados ----")
+        print("\n------------------- Cachorros cadastrados -------------------")
         for i, cachorro in enumerate(cls.cachorros_cadastrados,1):
             print(f"{i}. {cachorro.nome} | {cachorro.raca} | {cachorro.idade} anos | {cachorro.cor}")
-        print("----------------------------")
+        print("---------------------------------------------------------------")
+
+        
+        
