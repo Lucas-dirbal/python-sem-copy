@@ -51,3 +51,14 @@ class Serie:
     @nome.setter
     def nome(self, nome):
         self.__nome = nome
+
+cloverfield = Filme("Cloverfield: Monstro", 2008, 85, 7.0)
+lorax = Filme("O Lorax: Em Busca da Trúfula Perdida", 2012, 86, 6.4)
+pequenos_espioes_4 = Filme("Pequenos Espiões 4", 2011, 89, 3.5)
+inception = Filme("A Origem", 2010, 148, 8.8)
+matrix = Filme("Matrix", 1999, 136, 8.7)
+interstellar = Filme("Interestelar", 2014, 169, 8.6)
+toy_story = Filme("Toy Story", 1995, 81, 8.3)
+up_altas_aventuras = Filme("Up: Altas Aventuras", 2009, 96, 8.2)
+shrek = Filme("Shrek", 2001, 90, 7.9)
+pantera_negra = Filme("Pantera Negra", 2018, 134, 7.3)
